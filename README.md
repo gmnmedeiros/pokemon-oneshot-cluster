@@ -10,6 +10,7 @@ The raw data was cleaned using 'Spyder IDE'
 
 The process was fairly simple, as I only needed to extract the original 151 Pokémon.
 The solution was as simple as:
+
 'gen1_df = df[df.Generation == 1]'
 
 However, there were also MegaPokemon, which duplicated the Pokedex # column.
